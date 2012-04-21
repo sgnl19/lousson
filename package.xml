@@ -4,7 +4,7 @@
  <channel>quirkies.github.com/pear</channel>
  <summary>Lousson PHP Libraries
 </summary>
- <description>
+ <description>=====================
 
 The Lousson/PHP Libraries are a working draft to evaluate the usability
 of PHP services within an Enterprise-SOA. 
@@ -17,7 +17,7 @@ The complete sourcecode and version history is avialabe at GitHub.
 One may either visit http://github.com/quirkies/lousson or clone the
 source tree directly:
 
-    git clone git@github.com:quirkies/lousson.git
+	git clone git@github.com:quirkies/lousson.git
 
 GitHub.com is also used to track issues like bugs and feature-requests,
 as well as to host the Lousson WiKi pages:
@@ -62,7 +62,7 @@ PERFORMANCE OF THIS SOFTWARE.
   <active>yes</active>
  </developer>
  <date>2012-04-21</date>
- <time>17:25:38</time>
+ <time>19:06:38</time>
  <version>
   <release>0.0.1</release>
   <api>0.0.1</api>
@@ -83,6 +83,22 @@ PERFORMANCE OF THIS SOFTWARE.
      <dir name="Util">
       <file role="php" name="AutoLoader.php"/>
      </dir>
+     <dir name="WSDL">
+      <file role="php" name="AnyBinding.php"/>
+      <file role="php" name="AnyBindingFault.php"/>
+      <file role="php" name="AnyBindingFaultReference.php"/>
+      <file role="php" name="AnyBindingMessageReference.php"/>
+      <file role="php" name="AnyBindingOperation.php"/>
+      <file role="php" name="AnyComponent.php"/>
+      <file role="php" name="AnyDescription.php"/>
+      <file role="php" name="AnyEndpoint.php"/>
+      <file role="php" name="AnyInterface.php"/>
+      <file role="php" name="AnyInterfaceFault.php"/>
+      <file role="php" name="AnyInterfaceFaultReference.php"/>
+      <file role="php" name="AnyInterfaceMessageReference.php"/>
+      <file role="php" name="AnyInterfaceOperation.php"/>
+      <file role="php" name="AnyService.php"/>
+     </dir>
     </dir>
    </dir>
   </dir>
@@ -90,7 +106,7 @@ PERFORMANCE OF THIS SOFTWARE.
  <dependencies>
   <required>
    <php>
-    <min>5.2.0</min>
+    <min>5.3.0</min>
    </php>
    <pearinstaller>
     <min>2.0.0a1</min>
