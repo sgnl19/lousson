@@ -24,7 +24,7 @@ namespace Lousson\Schema;
  *  Definition of the Lousson\Schema\AnyComponent interface.
  *
  *  @package    org.lousson.wsdl
- *  @since      December 2011
+ *  @since      Release 0.0.1
  *  @copyright  2011 Mathias J. Hennig
  *  @license    http://www.opensource.org/licenses/ISC ISC License
  *  @author     Mathias J. Hennig <mhennig at quirkies.org>
@@ -38,7 +38,7 @@ use Lousson;
  *  implement future specifications of XMLSchema.
  *
  *  @package    org.lousson.wsdl
- *  @since      December 2011
+ *  @since      Release 0.0.1
  *
  *  @see http://www.w3.org/TR/xmlschema-1/#components
  *  @see http://www.w3.org/TR/xmlschema-1/#concepts

@@ -30,7 +30,7 @@ use Lousson\WSDL\AnyComponent;
  *  required in order to represent WSDL binding operation components.
  *
  *  @package    org.lousson.wsdl
- *  @since      December 2011
+ *  @since      Release 0.0.1
  *
  *  @see http://www.w3.org/TR/wsdl20/#Binding_Operation
  *  @see http://www.w3.org/TR/wsdl20/#component_model

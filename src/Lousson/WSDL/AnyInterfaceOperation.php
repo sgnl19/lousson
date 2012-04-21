@@ -24,7 +24,7 @@ namespace Lousson\WSDL;
  *  Definition of the Lousson\WSDL\AnyInterfaceOperation interface.
  *
  *  @package    org.lousson.wsdl
- *  @since      December 2011
+ *  @since      Release 0.0.1
  *  @copyright  2011 Mathias J. Hennig
  *  @license    http://www.opensource.org/licenses/ISC ISC License
  *  @author     Mathias J. Hennig <mhennig at quirkies.org>
@@ -36,7 +36,7 @@ use Lousson\WSDL\AnyComponent;
  *  required in order to represent WSDL interface operation components.
  *
  *  @package    org.lousson.wsdl
- *  @since      December 2011
+ *  @since      Release 0.0.1
  *
  *  @see http://www.w3.org/TR/wsdl20/#InterfaceOperation
  *  @see http://www.w3.org/TR/wsdl20/#component_model

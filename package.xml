@@ -62,7 +62,7 @@ PERFORMANCE OF THIS SOFTWARE.
   <active>yes</active>
  </developer>
  <date>2012-04-21</date>
- <time>19:06:38</time>
+ <time>23:09:24</time>
  <version>
   <release>0.0.1</release>
   <api>0.0.1</api>
@@ -80,6 +80,25 @@ PERFORMANCE OF THIS SOFTWARE.
   <dir name="/">
    <dir name="src" baseinstalldir="/">
     <dir name="Lousson">
+     <dir name="Schema">
+      <file role="php" name="AnyAnnotation.php"/>
+      <file role="php" name="AnyAttributeDeclaration.php"/>
+      <file role="php" name="AnyAttributeGroupDefinition.php"/>
+      <file role="php" name="AnyAttributeUse.php"/>
+      <file role="php" name="AnyComplexTypeDefinition.php"/>
+      <file role="php" name="AnyComponent.php"/>
+      <file role="php" name="AnyConstrainingFacet.php"/>
+      <file role="php" name="AnyElementDeclaration.php"/>
+      <file role="php" name="AnyIdentityConstraintDefinition.php"/>
+      <file role="php" name="AnyModelGroup.php"/>
+      <file role="php" name="AnyModelGroupDefinition.php"/>
+      <file role="php" name="AnyNotationDeclaration.php"/>
+      <file role="php" name="AnyParticle.php"/>
+      <file role="php" name="AnySchema.php"/>
+      <file role="php" name="AnySimpleTypeDefinition.php"/>
+      <file role="php" name="AnyTypeDefinition.php"/>
+      <file role="php" name="AnyWildcard.php"/>
+     </dir>
      <dir name="Util">
       <file role="php" name="AutoLoader.php"/>
      </dir>

@@ -24,7 +24,7 @@ namespace Lousson\Schema;
  *  Definition of the Lousson\Schema\AnyComplexTypeDefinition interface.
  *
  *  @package    org.lousson.wsdl
- *  @since      December 2011
+ *  @since      Release 0.0.1
  *  @copyright  2011 Mathias J. Hennig
  *  @license    http://www.opensource.org/licenses/ISC ISC License
  *  @author     Mathias J. Hennig <mhennig at quirkies.org>
@@ -36,7 +36,7 @@ use Lousson\Schema\AnyTypeDefinition;
  *  required in order to implement Schema complex type definitions.
  *
  *  @package    org.lousson.wsdl
- *  @since      December 2011
+ *  @since      Release 0.0.1
  *
  *  @see http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions
  *  @see http://www.w3.org/TR/xmlschema-1/#components

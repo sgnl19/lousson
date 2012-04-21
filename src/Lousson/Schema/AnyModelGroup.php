@@ -24,7 +24,7 @@ namespace Lousson\Schema;
  *  Definiton of the Lousson\Schema\AnyModelGroup interface.
  *
  *  @package    org.lousson.wsdl
- *  @since      December 2011
+ *  @since      Release 0.0.1
  *  @copyright  2011 Mathias J. Hennig
  *  @license    http://www.opensource.org/licenses/ISC ISC License
  *  @author     Mathias J. Hennig <mhennig at quirkies.org>
@@ -36,7 +36,7 @@ use Lousson\Schema\AnyComponent;
  *  to implement Schema model group components.
  *
  *  @package    org.lousson.wsdl
- *  @since      December 2011
+ *  @since      Release 0.0.1
  *
  *  @see http://www.w3.org/TR/xmlschema-1/#Model_Groups
  *  @see http://www.w3.org/TR/xmlschema-1/#components
