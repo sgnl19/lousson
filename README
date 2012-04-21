@@ -12,7 +12,7 @@ The complete sourcecode and version history is avialabe at GitHub.
 One may either visit http://github.com/quirkies/lousson or clone the
 source tree directly:
 
-    git clone git@github.com:quirkies/lousson.git
+	git clone git@github.com:quirkies/lousson.git
 
 GitHub.com is also used to track issues like bugs and feature-requests,
 as well as to host the Lousson WiKi pages:

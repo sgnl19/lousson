@@ -47,8 +47,8 @@ class AutoLoader
      *  The getInstance() method returns an instance of the AutoLoader
      *  class. Authors of derived classes should reimplement it, in order
      *  to avoid confusion.
-	 *
-	 *	@return Lousson\Util\AutoLoader
+     *
+     *  @return Lousson\Util\AutoLoader
      */
     static function getInstance()
     {
