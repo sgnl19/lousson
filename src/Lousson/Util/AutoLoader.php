@@ -97,7 +97,7 @@ class AutoLoader
 
     /**
      *  The "magic" method __invoke() is an alias for loadClass().
-     .  It allows the instances of Lousson\Util\AutoLoader to be used as
+     *  It allows the instances of Lousson\Util\AutoLoader to be used as
      *  callbacks directly, which might be more intuitive.
      *
      *  @param  string  $className
