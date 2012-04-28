@@ -46,7 +46,7 @@ interface AnyNamedComponent extends AnyComponent
      *
      *  @return string
      */
-    public function getName()
+    public function getName();
 
     /**
      *  The getTargetNamespace() method shall return the URI of the
