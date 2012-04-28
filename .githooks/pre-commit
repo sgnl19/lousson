@@ -1,0 +1,46 @@
+#!/bin/sh
+# ------------------------------------------------------------------------
+# vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4 textwidth=75   :
+# ------------------------------------------------------------------------
+# Mathias J. Hennig wrote this script. As long as you retain this notice :
+# you can do whatever you want with this stuff. If we meet some day, and :
+# you think this stuff is worth it, you can buy me a beer in return.     :
+# ------------------------------------------------------------------------
+
+##
+# As seen in .git/hooks/pre-commit.sample
+if git rev-parse --verify HEAD >/dev/null 2>&1
+then
+    against=HEAD
+else
+    # Initial commit: diff against an empty tree object
+    against=4b825dc642cb6eb9a060e54bf8d69288fbee4904
+fi
+
+##
+# Check for PHP syntax errors ...
+for php_file in `git diff-index --cached --name-only "$against"`; do
+    php_commits_found=1
+    if [ -e "$php_file" ]; then
+        php_error_message=`php -l "$php_file" 2>&1 >/dev/null`
+        if [ ! "x$php_error_message" = "x" ]; then
+            echo $php_error_message >&2
+            php_errors_found=1
+        fi
+    fi
+done
+# ... and abort in case there are some ...
+if [ ! "x$php_errors_found" = "x" ]; then
+    echo "Won't commit due to PHP syntax errors (see above)" >&2
+    exit 1
+fi
+# ... or update package.xml and the like (if any PHP file has changed)
+if [ ! "x$php_commits_found" = "x" ]; then
+    pyrus make -n
+    git add package.xml
+fi
+
+##
+# Over & out
+exit $?
+
