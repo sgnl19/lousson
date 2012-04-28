@@ -1,0 +1,13 @@
+##
+# Common .*ignore files of other RCS', beside Git, that one may use to
+# track private branches, or whatever...
+.cvsignore
+.hgignore
+.svnignore
+
+##
+# Special files that may have been created by e.g. CVS, Vim and the like
+.~lock.*
+*~
+.#*
+
