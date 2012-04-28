@@ -18,8 +18,14 @@ else
 fi
 
 ##
+# Search for created, modified and deleted *.php files
+php_find_changes() {
+    git diff-index --cached --name-only "$1" | sed -n '/\.php$/p'
+}
+
+##
 # Check for PHP syntax errors ...
-for php_file in `git diff-index --cached --name-only "$against"`; do
+php_find_changes $against | while read php_file; do
     php_commits_found=1
     if [ -e "$php_file" ]; then
         php_error_message=`php -l "$php_file" 2>&1 >/dev/null`
